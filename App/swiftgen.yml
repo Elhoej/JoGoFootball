@@ -1,0 +1,16 @@
+xcassets:
+  - inputs:
+      - BountyFootball/Resources/Assets.xcassets
+    outputs:
+      - templateName: swift4
+        output: BountyFootball/Resources/Media.swift
+        params:
+          enumName: Media
+          imageAliasName: AssetImageTypeAlias
+          colorAliasName: AssetColorTypeAlias
+
+fonts:
+  - inputs: BountyFootball/Resources/Fonts
+    outputs:
+        templateName: swift4
+        output: BountyFootball/Resources/Fonts/Fonts.swift
